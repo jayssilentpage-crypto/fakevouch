@@ -14,8 +14,7 @@ if (!process.env.NEXTAUTH_SECRET) {
 
 export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
-  // Ensure we have a base URL for callbacks
-  trustHost: true, // Required for NextAuth on serverless platforms like Netlify
+  // For NextAuth v4, ensure NEXTAUTH_URL is set in environment variables for Netlify
   debug: process.env.NODE_ENV === 'development', // Enable debug in development
   providers: [
     DiscordProvider({
