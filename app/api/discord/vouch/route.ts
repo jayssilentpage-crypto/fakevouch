@@ -296,11 +296,13 @@ export async function POST(request: NextRequest) {
         if (!response.ok) {
           let errorMessage = `HTTP ${response.status}`
           let errorDetails = ''
+          let discordError = null
           
           try {
             const errorJson = JSON.parse(responseData)
             errorMessage = errorJson.message || errorJson.error?.message || errorMessage
             errorDetails = errorJson.error_description || errorJson.code || ''
+            discordError = errorJson
           } catch {
             errorMessage = responseData || errorMessage
           }
@@ -310,11 +312,20 @@ export async function POST(request: NextRequest) {
             errorMessage = 'Unauthorized - Invalid bot token'
             errorDetails = 'The bot token in DISCORD_BOT_TOKEN is incorrect or expired. Please check your .env.local file.'
           } else if (response.status === 403) {
-            errorMessage = 'Forbidden - Bot lacks permissions'
-            errorDetails = 'The bot needs Administrator permissions or at least: Send Messages, Embed Links'
+            // Check for specific Discord error codes
+            if (discordError?.code === 50013) {
+              errorMessage = 'Missing Permissions'
+              errorDetails = `Channel ID: ${channelIdStr}. Even with Admin, check: 1) Channel permission overwrites, 2) Bot role position, 3) Channel/category visibility. Full error: ${JSON.stringify(discordError)}`
+            } else if (discordError?.code === 50001) {
+              errorMessage = 'Missing Access'
+              errorDetails = `Bot cannot access channel ${channelIdStr}. Check if channel is in a private category or has permission overwrites blocking the bot.`
+            } else {
+              errorMessage = 'Forbidden - Bot lacks permissions'
+              errorDetails = `Discord error code: ${discordError?.code || 'unknown'}. Channel: ${channelIdStr}. Even with Admin permissions, check channel-specific permission overwrites or category settings. Full response: ${responseData.substring(0, 200)}`
+            }
           } else if (response.status === 404) {
             errorMessage = 'Channel not found'
-            errorDetails = 'Invalid channel ID or bot is not in the server'
+            errorDetails = `Invalid channel ID: ${channelIdStr} or bot is not in the server. Verify the channel ID is correct.`
           }
           
           results.push({

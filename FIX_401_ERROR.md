@@ -1,4 +1,4 @@
-# =ƒöº Fix 401 Unauthorized Error
+# =ï¿½ï¿½ï¿½ Fix 401 Unauthorized Error
 
 ## What is 401 Error?
 401 Unauthorized means the Discord API rejected your bot token. This happens when:
@@ -13,7 +13,7 @@
 2. Find your bot application (Client ID: 1434190556023488512)
 3. Go to **"Bot"** section in the left sidebar
 4. Click **"Reset Token"** or **"Copy"** to get your token
-5. **GÜán+Å Save it somewhere safe - you won't see it again!**
+5. **Gï¿½ï¿½n+ï¿½ Save it somewhere safe - you won't see it again!**
 
 ### Step 2: Add to `.env.local`
 Open `C:\Users\ender\Music\fakevouch\.env.local` and add:
@@ -53,17 +53,17 @@ Environment variables are only loaded when the server starts!
 
 ## Common Mistakes
 
-G¥î **Wrong:** `DISCORD_BOT_TOKEN="your_token"` (with quotes)
-G£à **Right:** `DISCORD_BOT_TOKEN=your_token` (no quotes)
+Gï¿½ï¿½ **Wrong:** `DISCORD_BOT_TOKEN="your_token"` (with quotes)
+Gï¿½ï¿½ **Right:** `DISCORD_BOT_TOKEN=your_token` (no quotes)
 
-G¥î **Wrong:** Token has spaces or newlines
-G£à **Right:** Token is one continuous string
+Gï¿½ï¿½ **Wrong:** Token has spaces or newlines
+Gï¿½ï¿½ **Right:** Token is one continuous string
 
-G¥î **Wrong:** Forgot to restart server after adding token
-G£à **Right:** Always restart after changing `.env.local`
+Gï¿½ï¿½ **Wrong:** Forgot to restart server after adding token
+Gï¿½ï¿½ **Right:** Always restart after changing `.env.local`
 
-G¥î **Wrong:** Using OAuth client secret instead of bot token
-G£à **Right:** Bot token is different - get it from Bot section
+Gï¿½ï¿½ **Wrong:** Using OAuth client secret instead of bot token
+Gï¿½ï¿½ **Right:** Bot token is different - get it from Bot section
 
 ## Still Getting 401?
 
