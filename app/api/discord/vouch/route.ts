@@ -281,10 +281,37 @@ export async function POST(request: NextRequest) {
 
       if (!botInfoResponse.ok) {
         if (botInfoResponse.status === 401) {
+          // Check if they're using OAuth client secret instead of bot token
+          const errorText = await botInfoResponse.text()
+          
+          // Bot tokens are typically 59+ characters, OAuth secrets are usually shorter or different format
+          if (cleanToken.length < 55 || cleanToken.includes('_') || !cleanToken.includes('.')) {
+            return NextResponse.json(
+              { 
+                error: 'Wrong Token Type - Using OAuth Client Secret Instead of Bot Token',
+                details: `❌ You're using the OAuth CLIENT SECRET, but you need the BOT TOKEN (they are different!). 
+                
+STEPS TO FIX:
+1. Go to: https://discord.com/developers/applications/1434329685910618203
+2. Click "Bot" in the left sidebar (NOT "OAuth2")
+3. Under "Token" section, click "Reset Token" or "Copy" 
+4. Copy the BOT TOKEN (starts with something like: MTIzNDU2Nzg5MDEyMzQ1Njc4OTA.ABC123...)
+5. Go to Netlify → Site settings → Environment variables
+6. Update DISCORD_BOT_TOKEN with the BOT TOKEN (not the OAuth client secret)
+7. Redeploy site
+
+NOTE: Bot Token ≠ OAuth Client Secret. You need the BOT TOKEN from the "Bot" section, not the "OAuth2" section!`,
+                status: 401,
+                tokenType: 'oauth_secret_detected',
+              },
+              { status: 401 }
+            )
+          }
+          
           return NextResponse.json(
             { 
               error: 'Invalid Bot Token',
-              details: `The DISCORD_BOT_TOKEN in Netlify environment variables is INCORRECT or EXPIRED. Steps to fix: 1) Go to https://discord.com/developers/applications → Select your app → Bot section → Reset Token (or copy existing). 2) Copy the token (starts with something like MTIzNDU...). 3) Go to Netlify → Site settings → Environment variables → Update DISCORD_BOT_TOKEN with the new token. 4) Redeploy site.`,
+              details: `The DISCORD_BOT_TOKEN in Netlify environment variables is INCORRECT or EXPIRED. Steps to fix: 1) Go to https://discord.com/developers/applications → Select your app → Click "Bot" section (NOT OAuth2!) → Reset Token (or copy existing). 2) Copy the BOT TOKEN (starts with something like MTIzNDU...). 3) Go to Netlify → Site settings → Environment variables → Update DISCORD_BOT_TOKEN with the BOT TOKEN. 4) Redeploy site.`,
               status: 401,
             },
             { status: 401 }
@@ -293,13 +320,18 @@ export async function POST(request: NextRequest) {
       } else {
         const botInfo = await botInfoResponse.json()
         console.log(`✅ Bot token valid - Bot: ${botInfo.username}#${botInfo.discriminator} (ID: ${botInfo.id})`)
+        
+        // Verify this is actually a bot, not a user token
+        if (!botInfo.bot) {
+          console.warn('⚠️ Token belongs to a user, not a bot application')
+        }
       }
     } catch (tokenError: any) {
       console.error('Failed to validate bot token:', tokenError)
       return NextResponse.json(
         { 
           error: 'Bot token validation failed',
-          details: `Could not verify bot token. Check if DISCORD_BOT_TOKEN is set correctly in Netlify environment variables. Error: ${tokenError.message}`,
+          details: `Could not verify bot token. Check if DISCORD_BOT_TOKEN is set correctly in Netlify environment variables. Make sure you're using the BOT TOKEN from the "Bot" section, NOT the OAuth Client Secret from "OAuth2" section. Error: ${tokenError.message}`,
         },
         { status: 500 }
       )
