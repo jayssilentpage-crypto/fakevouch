@@ -270,6 +270,41 @@ export async function POST(request: NextRequest) {
     // Ensure channelId is a string
     const channelIdStr = String(channelId).trim()
 
+    // PRE-VALIDATE: First verify bot token is valid by checking bot info
+    try {
+      const botInfoResponse = await fetch(`https://discord.com/api/v10/users/@me`, {
+        headers: {
+          'Authorization': `Bot ${cleanToken}`,
+          'User-Agent': 'DiscordBot (https://fakevouch.xyz, 1.0)',
+        },
+      })
+
+      if (!botInfoResponse.ok) {
+        if (botInfoResponse.status === 401) {
+          return NextResponse.json(
+            { 
+              error: 'Invalid Bot Token',
+              details: `The DISCORD_BOT_TOKEN in Netlify environment variables is INCORRECT or EXPIRED. Steps to fix: 1) Go to https://discord.com/developers/applications → Select your app → Bot section → Reset Token (or copy existing). 2) Copy the token (starts with something like MTIzNDU...). 3) Go to Netlify → Site settings → Environment variables → Update DISCORD_BOT_TOKEN with the new token. 4) Redeploy site.`,
+              status: 401,
+            },
+            { status: 401 }
+          )
+        }
+      } else {
+        const botInfo = await botInfoResponse.json()
+        console.log(`✅ Bot token valid - Bot: ${botInfo.username}#${botInfo.discriminator} (ID: ${botInfo.id})`)
+      }
+    } catch (tokenError: any) {
+      console.error('Failed to validate bot token:', tokenError)
+      return NextResponse.json(
+        { 
+          error: 'Bot token validation failed',
+          details: `Could not verify bot token. Check if DISCORD_BOT_TOKEN is set correctly in Netlify environment variables. Error: ${tokenError.message}`,
+        },
+        { status: 500 }
+      )
+    }
+
     // PRE-VALIDATE: Check if bot can access the channel BEFORE trying to send messages
     try {
       const validationResponse = await fetch(`https://discord.com/api/v10/channels/${channelIdStr}`, {
@@ -287,31 +322,37 @@ export async function POST(request: NextRequest) {
         } catch {}
 
         if (validationResponse.status === 403) {
-          return NextResponse.json(
-            { 
-              error: 'Bot cannot access channel',
-              details: `Channel ID: ${channelIdStr}. The bot is either: 1) Not in the server, 2) Missing permissions, 3) Channel is in a private category, or 4) Wrong bot token. Error: ${validationErrorJson?.message || validationError}. Fix: Invite bot to server with Administrator permissions.`,
-              errorCode: validationErrorJson?.code || 'unknown',
-              channelId: channelIdStr,
-            },
-            { status: 403 }
-          )
+          const errorCode = validationErrorJson?.code
+          if (errorCode === 50001) {
+            return NextResponse.json(
+              { 
+                error: 'Bot Not in Server',
+                details: `Channel ID: ${channelIdStr}. The bot is NOT in this Discord server. FIX: 1) Use this invite link: https://discord.com/oauth2/authorize?client_id=1434329685910618203&permissions=8&scope=bot 2) Select your server → Authorize. 3) Verify bot appears in server member list.`,
+                errorCode: 50001,
+                channelId: channelIdStr,
+                inviteLink: 'https://discord.com/oauth2/authorize?client_id=1434329685910618203&permissions=8&scope=bot',
+              },
+              { status: 403 }
+            )
+          } else {
+            return NextResponse.json(
+              { 
+                error: 'Bot Cannot Access Channel',
+                details: `Channel ID: ${channelIdStr}. Error code: ${errorCode || 'unknown'}. The bot is either: 1) Not in the server, 2) Missing permissions, 3) Channel in private category, 4) Permission overwrites blocking bot. Error: ${validationErrorJson?.message || validationError}`,
+                errorCode: errorCode,
+                channelId: channelIdStr,
+              },
+              { status: 403 }
+            )
+          }
         } else if (validationResponse.status === 404) {
           return NextResponse.json(
             { 
-              error: 'Channel not found',
-              details: `Channel ID ${channelIdStr} is invalid or bot is not in the server. Verify: 1) Channel ID is correct (enable Developer Mode and right-click channel → Copy ID), 2) Bot is invited to the server.`,
+              error: 'Channel Not Found',
+              details: `Channel ID ${channelIdStr} is invalid or bot is not in the server. Verify: 1) Channel ID is correct (enable Developer Mode → right-click channel → Copy ID), 2) Bot is invited to server using: https://discord.com/oauth2/authorize?client_id=1434329685910618203&permissions=8&scope=bot`,
               channelId: channelIdStr,
             },
             { status: 404 }
-          )
-        } else if (validationResponse.status === 401) {
-          return NextResponse.json(
-            { 
-              error: 'Invalid bot token',
-              details: `The bot token in Netlify environment variables is incorrect or expired. Get a new token from Discord Developer Portal → Your App → Bot → Reset Token, then update DISCORD_BOT_TOKEN in Netlify.`,
-            },
-            { status: 401 }
           )
         }
 
@@ -327,7 +368,7 @@ export async function POST(request: NextRequest) {
 
       // If we get here, bot CAN access the channel - proceed with sending messages
       const channelData = await validationResponse.json()
-      console.log(`✅ Bot can access channel: ${channelData.name || channelIdStr}`)
+      console.log(`✅ Bot can access channel: ${channelData.name || channelIdStr} (Guild: ${channelData.guild_id || 'DM'})`)
     } catch (validationError: any) {
       // If validation fails due to network error, still try to send (might be a transient issue)
       console.warn('⚠️ Could not validate channel access, proceeding anyway:', validationError.message)
