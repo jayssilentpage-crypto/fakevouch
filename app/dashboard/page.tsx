@@ -400,6 +400,23 @@ export default function DashboardPage() {
           totalSent += data.sent || 0
           totalFailed += data.failed || 0
           allResults.push(...(data.results || []))
+        } else {
+          // Handle error responses
+          totalFailed += 1
+          const errorMsg = data.error || data.errorDetails || 'Unknown error'
+          const errorDetails = data.errorDetails || data.details || ''
+          allResults.push({
+            success: false,
+            error: errorMsg,
+            errorDetails: errorDetails,
+            statusCode: response.status,
+            discordErrorCode: data.discordErrorCode,
+          })
+          
+          // Show specific error
+          if (data.error) {
+            showToast(`Connection failed: ${data.error}${errorDetails ? ` - ${errorDetails.substring(0, 100)}` : ''}`, 'error')
+          }
         }
       }
 

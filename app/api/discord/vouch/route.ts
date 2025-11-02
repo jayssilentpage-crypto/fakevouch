@@ -367,8 +367,19 @@ export async function POST(request: NextRequest) {
             errorMessage = errorJson.message || errorJson.error?.message || errorMessage
             errorDetails = errorJson.error_description || errorJson.code || ''
             discordError = errorJson
-          } catch {
+            
+            // Log full error for debugging
+            console.error('Discord API Error:', {
+              status: response.status,
+              code: errorJson.code,
+              message: errorJson.message,
+              errors: errorJson.errors,
+              fullResponse: errorJson
+            })
+          } catch (parseError) {
+            // If JSON parse fails, use raw response
             errorMessage = responseData || errorMessage
+            console.error('Failed to parse error response:', responseData)
           }
           
           // Better error messages
@@ -390,6 +401,10 @@ export async function POST(request: NextRequest) {
           } else if (response.status === 404) {
             errorMessage = 'Channel not found'
             errorDetails = `Invalid channel ID: ${channelIdStr} or bot is not in the server. Verify the channel ID is correct.`
+          } else {
+            // Catch all other errors
+            errorMessage = errorMessage || `HTTP ${response.status} Error`
+            errorDetails = `Discord API returned status ${response.status}. Error code: ${discordError?.code || 'unknown'}. Full details: ${JSON.stringify(discordError || responseData.substring(0, 500))}`
           }
           
           results.push({
@@ -398,6 +413,8 @@ export async function POST(request: NextRequest) {
             error: errorMessage,
             errorDetails: errorDetails,
             statusCode: response.status,
+            discordErrorCode: discordError?.code,
+            fullError: discordError || responseData,
           })
           
           // If we get a 401 or 403, stop trying (auth/permission issues)
@@ -439,10 +456,12 @@ export async function POST(request: NextRequest) {
           await new Promise(resolve => setTimeout(resolve, delay * 1000))
         }
       } catch (error: any) {
+        console.error(`Exception sending vouch ${vouchNumber}:`, error)
         results.push({
           vouchNumber,
           success: false,
           error: error.message || 'Unknown error',
+          errorDetails: `Exception: ${error.message}. Stack: ${error.stack?.substring(0, 200)}`,
           details: error.stack,
         })
         
@@ -473,16 +492,38 @@ export async function POST(request: NextRequest) {
       })
     }
 
+    // If all failed, return error status
+    if (sentCount === 0 && failedCount > 0) {
+      const firstError = results.find(r => !r.success)
+      return NextResponse.json(
+        {
+          success: false,
+          error: firstError?.error || 'All vouches failed',
+          errorDetails: firstError?.errorDetails || 'Unknown error occurred',
+          total: vouchCount,
+          sent: sentCount,
+          failed: failedCount,
+          results,
+        },
+        { status: firstError?.statusCode || 500 }
+      )
+    }
+
     return NextResponse.json({
-      success: true,
+      success: sentCount > 0,
       total: vouchCount,
       sent: sentCount,
       failed: failedCount,
       results,
     })
   } catch (error: any) {
+    console.error('Fatal error in vouch route:', error)
     return NextResponse.json(
-      { error: error.message || 'Internal server error', stack: error.stack },
+      { 
+        error: error.message || 'Internal server error', 
+        errorDetails: `Fatal exception: ${error.stack?.substring(0, 300)}`,
+        stack: error.stack 
+      },
       { status: 500 }
     )
   }
