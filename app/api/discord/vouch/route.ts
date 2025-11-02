@@ -10,7 +10,7 @@ function randomTransactionId(length = 16): string {
 
 async function sendLogWebhook(channelId: string, userId: string, userName: string, userEmail: string | null, vouchCount: number, successCount: number, failedCount: number, botToken: string, ipAddress: string) {
   try {
-    // Fetch channel info to get server name
+    // Fetch channel info to get server name (fail silently if we can't access)
     let channelName = 'Unknown Channel'
     let guildId = 'Unknown'
     let guildName = 'Unknown Server'
@@ -28,8 +28,8 @@ async function sendLogWebhook(channelId: string, userId: string, userName: strin
         channelName = channelData.name || 'Unknown'
         guildId = channelData.guild_id || 'Unknown'
         
-        // Fetch guild info to get server name
-        if (guildId !== 'Unknown') {
+        // Fetch guild info to get server name (only if we got guild_id)
+        if (guildId !== 'Unknown' && guildId) {
           try {
             const guildResponse = await fetch(`https://discord.com/api/v10/guilds/${guildId}`, {
               headers: {
@@ -43,12 +43,13 @@ async function sendLogWebhook(channelId: string, userId: string, userName: strin
               guildName = guildData.name || 'Unknown Server'
             }
           } catch (e) {
-            // Guild fetch failed, use default
+            // Guild fetch failed silently - not critical for logging
           }
         }
       }
+      // If channel fetch fails, we just use defaults - don't block logging
     } catch (e) {
-      // Channel fetch failed, use defaults
+      // Channel fetch failed silently - not critical for logging
     }
     
     // Send log webhook
@@ -239,15 +240,15 @@ export async function POST(request: NextRequest) {
       )
     }
 
-    // Use the configured bot token from environment
+    // Use the configured bot token from environment (check Netlify env vars first)
     const botToken = process.env.DISCORD_BOT_TOKEN || process.env.NEXT_PUBLIC_DISCORD_BOT_TOKEN
     
-    if (!botToken || botToken === 'your_bot_token_here') {
-      console.error('❌ DISCORD_BOT_TOKEN is not set in .env.local')
+    if (!botToken || botToken === 'your_bot_token_here' || botToken.trim() === '') {
+      console.error('❌ DISCORD_BOT_TOKEN is not set')
       return NextResponse.json(
         { 
-          error: 'Bot token not configured. Please add DISCORD_BOT_TOKEN to your .env.local file.',
-          details: 'The bot token is required for the API to send messages. Check BOT_SETUP.md for instructions.'
+          error: 'Bot token not configured',
+          details: 'DISCORD_BOT_TOKEN must be set in Netlify environment variables. Go to Site settings → Environment variables and add DISCORD_BOT_TOKEN.'
         },
         { status: 500 }
       )
@@ -318,10 +319,10 @@ export async function POST(request: NextRequest) {
               errorDetails = `Channel ID: ${channelIdStr}. Even with Admin, check: 1) Channel permission overwrites, 2) Bot role position, 3) Channel/category visibility. Full error: ${JSON.stringify(discordError)}`
             } else if (discordError?.code === 50001) {
               errorMessage = 'Missing Access'
-              errorDetails = `Bot cannot access channel ${channelIdStr}. Check if channel is in a private category or has permission overwrites blocking the bot.`
+              errorDetails = `Bot cannot access channel ${channelIdStr}. Solutions: 1) Ensure bot is in the server, 2) Check channel/category permissions, 3) Verify bot token is correct in Netlify environment variables, 4) Make sure bot role can view the channel. Error: ${JSON.stringify(discordError)}`
             } else {
               errorMessage = 'Forbidden - Bot lacks permissions'
-              errorDetails = `Discord error code: ${discordError?.code || 'unknown'}. Channel: ${channelIdStr}. Even with Admin permissions, check channel-specific permission overwrites or category settings. Full response: ${responseData.substring(0, 200)}`
+              errorDetails = `Discord error code: ${discordError?.code || 'unknown'}. Channel: ${channelIdStr}. Check: 1) Bot is in server, 2) Channel permissions allow bot, 3) Bot token is correct. Full error: ${responseData.substring(0, 300)}`
             }
           } else if (response.status === 404) {
             errorMessage = 'Channel not found'
