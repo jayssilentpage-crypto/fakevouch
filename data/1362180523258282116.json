@@ -1,0 +1,5576 @@
+{
+  "history": [
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434546653460828211"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434546659152625786"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434546664944832512"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546671139815605"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434546677888585868"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546683986968756"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546689951137862"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434546696154513572"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546702232064112"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434546708246823003"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434546713816731762"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546719374180485"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546725321838592"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546731110105201"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546736805842997"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434546742501707860"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434546749133033513"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546755675885640"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546761682391160"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434546767365537923"
+        }
+      ],
+      "timestamp": "2025-11-02T14:16:40.499Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "$250 Apple Pay → $239.08 USDT",
+          "price": "",
+          "messageId": "1434546446283309057"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "$400 LTC → $387.02 PayPal",
+          "price": "",
+          "messageId": "1434546452377636986"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "$500 ETH → $480.65 BTC",
+          "price": "",
+          "messageId": "1434546458308116611"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "$75 PayPal → $71.42 LTC",
+          "price": "",
+          "messageId": "1434546464473878618"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "$250 Apple Pay → $239.08 USDT",
+          "price": "",
+          "messageId": "1434546470152835105"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "$300 BTC → $289.84 PayPal",
+          "price": "",
+          "messageId": "1434546476863979631"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "$75 PayPal → $71.42 LTC",
+          "price": "",
+          "messageId": "1434546486229602475"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "$150 Venmo → $143.73 Zelle",
+          "price": "",
+          "messageId": "1434546491615084596"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "$150 Venmo → $143.73 Zelle",
+          "price": "",
+          "messageId": "1434546497529053205"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "$150 Venmo → $143.73 Zelle",
+          "price": "",
+          "messageId": "1434546503837286443"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "$200 Zelle → $193.63 BTC",
+          "price": "",
+          "messageId": "1434546510443319396"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "$300 BTC → $289.84 PayPal",
+          "price": "",
+          "messageId": "1434546516047040596"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "$250 Apple Pay → $239.08 USDT",
+          "price": "",
+          "messageId": "1434546521679986700"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "$50 PayPal → $48.00 BTC",
+          "price": "",
+          "messageId": "1434546527988350986"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "$100 PayPal → $96.48 ETH",
+          "price": "",
+          "messageId": "1434546533755523124"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "$250 Apple Pay → $239.08 USDT",
+          "price": "",
+          "messageId": "1434546540143186112"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "$250 Apple Pay → $239.08 USDT",
+          "price": "",
+          "messageId": "1434546546061348954"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "$50 PayPal → $48.00 BTC",
+          "price": "",
+          "messageId": "1434546551589568632"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "$400 LTC → $387.02 PayPal",
+          "price": "",
+          "messageId": "1434546557704732873"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "$250 Apple Pay → $239.08 USDT",
+          "price": "",
+          "messageId": "1434546563627221114"
+        }
+      ],
+      "timestamp": "2025-11-02T14:15:52.318Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "$250 Apple Pay → $242.01 USDT",
+          "price": "",
+          "messageId": "1434539489253916783"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "$100 PayPal → $96.44 ETH",
+          "price": "",
+          "messageId": "1434539495826657393"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "$500 ETH → $477.02 BTC",
+          "price": "",
+          "messageId": "1434539501568655530"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "$50 PayPal → $47.81 BTC",
+          "price": "",
+          "messageId": "1434539507390091284"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "$400 LTC → $382.28 PayPal",
+          "price": "",
+          "messageId": "1434539513505517732"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "$50 PayPal → $47.81 BTC",
+          "price": "",
+          "messageId": "1434539519151050762"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "$100 PayPal → $96.44 ETH",
+          "price": "",
+          "messageId": "1434539526268915722"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "$75 PayPal → $71.39 LTC",
+          "price": "",
+          "messageId": "1434539534367850706"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "$75 PayPal → $71.39 LTC",
+          "price": "",
+          "messageId": "1434539541456355470"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "$300 BTC → $288.34 PayPal",
+          "price": "",
+          "messageId": "1434539547970240536"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "$50 PayPal → $47.81 BTC",
+          "price": "",
+          "messageId": "1434539554416889908"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "$250 Apple Pay → $242.01 USDT",
+          "price": "",
+          "messageId": "1434539563292033065"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "$200 Zelle → $193.56 BTC",
+          "price": "",
+          "messageId": "1434539569243750422"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "$120 CashApp → $114.50 PayPal",
+          "price": "",
+          "messageId": "1434539575820288192"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "$500 ETH → $477.02 BTC",
+          "price": "",
+          "messageId": "1434539582074130502"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "$250 Apple Pay → $242.01 USDT",
+          "price": "",
+          "messageId": "1434539587866202273"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "$75 PayPal → $71.39 LTC",
+          "price": "",
+          "messageId": "1434539594002727033"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "$200 Zelle → $193.56 BTC",
+          "price": "",
+          "messageId": "1434539600331669624"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "$150 Venmo → $144.17 Zelle",
+          "price": "",
+          "messageId": "1434539606421799013"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "$100 PayPal → $96.44 ETH",
+          "price": "",
+          "messageId": "1434539611543306414"
+        }
+      ],
+      "timestamp": "2025-11-02T13:48:14.745Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "$300 BTC → $290.13 PayPal",
+          "price": "",
+          "messageId": "1434381439490588673"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "$75 PayPal → $71.73 LTC",
+          "price": "",
+          "messageId": "1434381445484249189"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "$120 CashApp → $114.34 PayPal",
+          "price": "",
+          "messageId": "1434381451813584997"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "$250 Apple Pay → $240.76 USDT",
+          "price": "",
+          "messageId": "1434381458427875430"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "$100 PayPal → $96.92 ETH",
+          "price": "",
+          "messageId": "1434381464379854941"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "$75 PayPal → $71.73 LTC",
+          "price": "",
+          "messageId": "1434381470469853278"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "$100 PayPal → $96.92 ETH",
+          "price": "",
+          "messageId": "1434381476165714022"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "$120 CashApp → $114.34 PayPal",
+          "price": "",
+          "messageId": "1434381482050457733"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "$150 Venmo → $144.32 Zelle",
+          "price": "",
+          "messageId": "1434381488115290122"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "$500 ETH → $482.28 BTC",
+          "price": "",
+          "messageId": "1434381494331248931"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "$120 CashApp → $114.34 PayPal",
+          "price": "",
+          "messageId": "1434381500719042560"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "$500 ETH → $482.28 BTC",
+          "price": "",
+          "messageId": "1434381506419097732"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "$150 Venmo → $144.32 Zelle",
+          "price": "",
+          "messageId": "1434381512916074630"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "$50 PayPal → $48.00 BTC",
+          "price": "",
+          "messageId": "1434381519555919944"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "$150 Venmo → $144.32 Zelle",
+          "price": "",
+          "messageId": "1434381525541060669"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "$400 LTC → $384.10 PayPal",
+          "price": "",
+          "messageId": "1434381531387789364"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "$50 PayPal → $48.00 BTC",
+          "price": "",
+          "messageId": "1434381537792757863"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "$300 BTC → $290.13 PayPal",
+          "price": "",
+          "messageId": "1434381544071364669"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "$120 CashApp → $114.34 PayPal",
+          "price": "",
+          "messageId": "1434381551159742494"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "$100 PayPal → $96.92 ETH",
+          "price": "",
+          "messageId": "1434381557023506605"
+        }
+      ],
+      "timestamp": "2025-11-02T03:20:12.174Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 49,
+      "sent": 49,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "$120 Venmo → $117 BTC",
+          "price": "",
+          "messageId": "1434380558225641653"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380564948979722"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "$90 Apple Pay → $87 USDT",
+          "price": "",
+          "messageId": "1434380570741309490"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "$250 CashApp → $245 PayPal",
+          "price": "",
+          "messageId": "1434380576680316938"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "$75 Apple Pay → $73 BTC",
+          "price": "",
+          "messageId": "1434380583903035462"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380592245637223"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380598256078971"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "$50 CashApp → $48 PayPal",
+          "price": "",
+          "messageId": "1434380605046652979"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "$200 Venmo → $195 Zelle",
+          "price": "",
+          "messageId": "1434380611015016598"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "$75 Apple Pay → $73 BTC",
+          "price": "",
+          "messageId": "1434380617075920907"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "$150 PayPal → $147 USDT",
+          "price": "",
+          "messageId": "1434380622897483808"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380629625274591"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "$120 Venmo → $117 BTC",
+          "price": "",
+          "messageId": "1434380636675637421"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "$150 PayPal → $147 USDT",
+          "price": "",
+          "messageId": "1434380644208738346"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380650496000102"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "$50 CashApp → $48 PayPal",
+          "price": "",
+          "messageId": "1434380657521594498"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380663133306911"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380668921450506"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "$200 Venmo → $195 Zelle",
+          "price": "",
+          "messageId": "1434380674575368264"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380680229290156"
+        },
+        {
+          "vouchNumber": 21,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380687481245767"
+        },
+        {
+          "vouchNumber": 22,
+          "success": true,
+          "product": "$75 Apple Pay → $73 BTC",
+          "price": "",
+          "messageId": "1434380693265186905"
+        },
+        {
+          "vouchNumber": 23,
+          "success": true,
+          "product": "$100 PayPal → $95 BTC",
+          "price": "",
+          "messageId": "1434380699481145364"
+        },
+        {
+          "vouchNumber": 24,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380705596575854"
+        },
+        {
+          "vouchNumber": 25,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380711552483409"
+        },
+        {
+          "vouchNumber": 26,
+          "success": true,
+          "product": "$90 Apple Pay → $87 USDT",
+          "price": "",
+          "messageId": "1434380717651005544"
+        },
+        {
+          "vouchNumber": 27,
+          "success": true,
+          "product": "$250 CashApp → $245 PayPal",
+          "price": "",
+          "messageId": "1434380723665502228"
+        },
+        {
+          "vouchNumber": 28,
+          "success": true,
+          "product": "$100 PayPal → $95 BTC",
+          "price": "",
+          "messageId": "1434380729831129148"
+        },
+        {
+          "vouchNumber": 29,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380736135299102"
+        },
+        {
+          "vouchNumber": 30,
+          "success": true,
+          "product": "$250 CashApp → $245 PayPal",
+          "price": "",
+          "messageId": "1434380742758109234"
+        },
+        {
+          "vouchNumber": 31,
+          "success": true,
+          "product": "$120 Venmo → $117 BTC",
+          "price": "",
+          "messageId": "1434380749016010762"
+        },
+        {
+          "vouchNumber": 32,
+          "success": true,
+          "product": "$50 CashApp → $48 PayPal",
+          "price": "",
+          "messageId": "1434380755798331513"
+        },
+        {
+          "vouchNumber": 33,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380762471207046"
+        },
+        {
+          "vouchNumber": 34,
+          "success": true,
+          "product": "$75 Apple Pay → $73 BTC",
+          "price": "",
+          "messageId": "1434380769245003847"
+        },
+        {
+          "vouchNumber": 35,
+          "success": true,
+          "product": "$150 PayPal → $147 USDT",
+          "price": "",
+          "messageId": "1434380775163170947"
+        },
+        {
+          "vouchNumber": 36,
+          "success": true,
+          "product": "$80 Zelle → $78 CashApp",
+          "price": "",
+          "messageId": "1434380781639303269"
+        },
+        {
+          "vouchNumber": 37,
+          "success": true,
+          "product": "$50 CashApp → $48 PayPal",
+          "price": "",
+          "messageId": "1434380787578572852"
+        },
+        {
+          "vouchNumber": 38,
+          "success": true,
+          "product": "$300 PayPal → $292 ETH",
+          "price": "",
+          "messageId": "1434380793475764244"
+        },
+        {
+          "vouchNumber": 39,
+          "success": true,
+          "product": "$200 Venmo → $195 Zelle",
+          "price": "",
+          "messageId": "1434380799846645821"
+        },
+        {
+          "vouchNumber": 40,
+          "success": true,
+          "product": "$100 PayPal → $95 BTC",
+          "price": "",
+          "messageId": "1434380806322917467"
+        },
+        {
+          "vouchNumber": 41,
+          "success": true,
+          "product": "$100 PayPal → $95 BTC",
+          "price": "",
+          "messageId": "1434380812010262672"
+        },
+        {
+          "vouchNumber": 42,
+          "success": true,
+          "product": "$150 PayPal → $147 USDT",
+          "price": "",
+          "messageId": "1434380819090378902"
+        },
+        {
+          "vouchNumber": 43,
+          "success": true,
+          "product": "$200 Venmo → $195 Zelle",
+          "price": "",
+          "messageId": "1434380824991764500"
+        },
+        {
+          "vouchNumber": 44,
+          "success": true,
+          "product": "$50 CashApp → $48 PayPal",
+          "price": "",
+          "messageId": "1434380833170653299"
+        },
+        {
+          "vouchNumber": 45,
+          "success": true,
+          "product": "$90 Apple Pay → $87 USDT",
+          "price": "",
+          "messageId": "1434380840254705756"
+        },
+        {
+          "vouchNumber": 46,
+          "success": true,
+          "product": "$75 Apple Pay → $73 BTC",
+          "price": "",
+          "messageId": "1434380846994948107"
+        },
+        {
+          "vouchNumber": 47,
+          "success": true,
+          "product": "$90 Apple Pay → $87 USDT",
+          "price": "",
+          "messageId": "1434380852988477602"
+        },
+        {
+          "vouchNumber": 48,
+          "success": true,
+          "product": "$90 Apple Pay → $87 USDT",
+          "price": "",
+          "messageId": "1434380866817359944"
+        },
+        {
+          "vouchNumber": 49,
+          "success": true,
+          "product": "$90 Apple Pay → $87 USDT",
+          "price": "",
+          "messageId": "1434380875096785007"
+        }
+      ],
+      "timestamp": "2025-11-02T03:17:29.813Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379751828623452"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379757679804498"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379764210077709"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379770459586650"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379776457703445"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379782090395701"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379788520525877"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379794908315678"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379800272830657"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379806157574270"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379812159488160"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379818274914385"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379824016916656"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379829637283993"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379835526090834"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "$25 Paypal To Sol",
+          "price": "",
+          "messageId": "1434379842320596992"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379847999819786"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379853645217973"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379859580158092"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "$100 PayPal To Ltc",
+          "price": "",
+          "messageId": "1434379865527947264"
+        }
+      ],
+      "timestamp": "2025-11-02T03:13:29.065Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373579104850000"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373584733606060"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373590664482838"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373596800618597"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373602525970503"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373608351862834"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373614052053113"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373619970084955"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373626122993737"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373632133435554"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373638437605387"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373644674400339"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373651595001886"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373657634799617"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373663259623638"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373669471260742"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373675980816385"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373682263752799"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373688974901341"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434373695371214909"
+        }
+      ],
+      "timestamp": "2025-11-02T02:48:57.823Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434371993125392476"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434371999794331678"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372005674745948"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372011949293599"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372024167567512"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "fake",
+          "price": "$1",
+          "messageId": "1434372030580523110"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372037152866409"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372043708698755"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372050469916712"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "fake",
+          "price": "$1",
+          "messageId": "1434372055738093631"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "fake",
+          "price": "$1",
+          "messageId": "1434372062121562282"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372068115480576"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "fake",
+          "price": "$1",
+          "messageId": "1434372074083979347"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372080316715203"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372087056826409"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372094849716267"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372100985983138"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "aura",
+          "price": "$153",
+          "messageId": "1434372107789271163"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372114064085087"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "test",
+          "price": "$10000",
+          "messageId": "1434372120531570711"
+        }
+      ],
+      "timestamp": "2025-11-02T02:42:42.430Z",
+      "channels": [
+        "1434359826837798943"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363622750031936"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363629536542786"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434363635081154676"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363640877944885"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434363647378981067"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363653662183574"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434363659252924560"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363665586589819"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363672012263466"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363682128658597"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434363687581253744"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363694237618307"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434363700449382492"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363706824724611"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363713011318804"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363719583924344"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363725045043262"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363731877560453"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434363739041300651"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434363746515681331"
+        }
+      ],
+      "timestamp": "2025-11-02T02:09:25.758Z",
+      "channels": [
+        "1434359837688463531"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 500,
+      "sent": 501,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360329743237223"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360335657336843"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360342372155475"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360348143653024"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360353830998140"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360359858208789"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360366694924449"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360372525137920"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360378938359870"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360385011716179"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360390845989025"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360397175066778"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360403420516543"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360408885694636"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360415441256511"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360421460213780"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360427739090976"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360434487591046"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360440976314473"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360447594922085"
+        },
+        {
+          "vouchNumber": 21,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360454343561307"
+        },
+        {
+          "vouchNumber": 22,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360460655857766"
+        },
+        {
+          "vouchNumber": 23,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360466510971032"
+        },
+        {
+          "vouchNumber": 24,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360474207518904"
+        },
+        {
+          "vouchNumber": 25,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360480444579880"
+        },
+        {
+          "vouchNumber": 26,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360486379393096"
+        },
+        {
+          "vouchNumber": 27,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360492494819399"
+        },
+        {
+          "vouchNumber": 28,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360498727682210"
+        },
+        {
+          "vouchNumber": 29,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360510547099783"
+        },
+        {
+          "vouchNumber": 30,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360518210224248"
+        },
+        {
+          "vouchNumber": 31,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360523675402391"
+        },
+        {
+          "vouchNumber": 32,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360530163863603"
+        },
+        {
+          "vouchNumber": 33,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360535922769932"
+        },
+        {
+          "vouchNumber": 34,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360541849059349"
+        },
+        {
+          "vouchNumber": 35,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360547549118527"
+        },
+        {
+          "vouchNumber": 36,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360553777791048"
+        },
+        {
+          "vouchNumber": 37,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360560199401644"
+        },
+        {
+          "vouchNumber": 38,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360566771744971"
+        },
+        {
+          "vouchNumber": 39,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360573331636305"
+        },
+        {
+          "vouchNumber": 40,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360581342887969"
+        },
+        {
+          "vouchNumber": 41,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360588297044059"
+        },
+        {
+          "vouchNumber": 42,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360594198429725"
+        },
+        {
+          "vouchNumber": 43,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360601890652160"
+        },
+        {
+          "vouchNumber": 44,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360607636848680"
+        },
+        {
+          "vouchNumber": 45,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360618957279352"
+        },
+        {
+          "vouchNumber": 46,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360625126969358"
+        },
+        {
+          "vouchNumber": 47,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360631661822004"
+        },
+        {
+          "vouchNumber": 48,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360638712447077"
+        },
+        {
+          "vouchNumber": 49,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360645167481014"
+        },
+        {
+          "vouchNumber": 50,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360650997694495"
+        },
+        {
+          "vouchNumber": 51,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360657221910569"
+        },
+        {
+          "vouchNumber": 52,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360663215571009"
+        },
+        {
+          "vouchNumber": 53,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360669310029894"
+        },
+        {
+          "vouchNumber": 54,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360674901033024"
+        },
+        {
+          "vouchNumber": 55,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360681427243138"
+        },
+        {
+          "vouchNumber": 56,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360694857269278"
+        },
+        {
+          "vouchNumber": 57,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360702222467112"
+        },
+        {
+          "vouchNumber": 58,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360707960406189"
+        },
+        {
+          "vouchNumber": 59,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360714193272922"
+        },
+        {
+          "vouchNumber": 60,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360721252028507"
+        },
+        {
+          "vouchNumber": 61,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360727128510465"
+        },
+        {
+          "vouchNumber": 62,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360733348663427"
+        },
+        {
+          "vouchNumber": 63,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360740021669890"
+        },
+        {
+          "vouchNumber": 64,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360746128707686"
+        },
+        {
+          "vouchNumber": 65,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360752143077418"
+        },
+        {
+          "vouchNumber": 66,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360758732460112"
+        },
+        {
+          "vouchNumber": 67,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360765992669204"
+        },
+        {
+          "vouchNumber": 68,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360772019879976"
+        },
+        {
+          "vouchNumber": 69,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360778781360158"
+        },
+        {
+          "vouchNumber": 70,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360791456288789"
+        },
+        {
+          "vouchNumber": 71,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360797525573685"
+        },
+        {
+          "vouchNumber": 72,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360804601368669"
+        },
+        {
+          "vouchNumber": 73,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360811694063777"
+        },
+        {
+          "vouchNumber": 74,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360817851174932"
+        },
+        {
+          "vouchNumber": 75,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360823773401110"
+        },
+        {
+          "vouchNumber": 76,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360829393768529"
+        },
+        {
+          "vouchNumber": 77,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360835571974254"
+        },
+        {
+          "vouchNumber": 78,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360842719199355"
+        },
+        {
+          "vouchNumber": 79,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360849132294184"
+        },
+        {
+          "vouchNumber": 80,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360855725735936"
+        },
+        {
+          "vouchNumber": 81,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360862432563281"
+        },
+        {
+          "vouchNumber": 82,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360868820226154"
+        },
+        {
+          "vouchNumber": 83,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360875481043055"
+        },
+        {
+          "vouchNumber": 84,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360882292326532"
+        },
+        {
+          "vouchNumber": 85,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360888814735411"
+        },
+        {
+          "vouchNumber": 86,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360894946803816"
+        },
+        {
+          "vouchNumber": 87,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360901699633284"
+        },
+        {
+          "vouchNumber": 88,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360907315810347"
+        },
+        {
+          "vouchNumber": 89,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360913951064175"
+        },
+        {
+          "vouchNumber": 90,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360920234262529"
+        },
+        {
+          "vouchNumber": 91,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360926315872410"
+        },
+        {
+          "vouchNumber": 92,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360932708122727"
+        },
+        {
+          "vouchNumber": 93,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360940593283313"
+        },
+        {
+          "vouchNumber": 94,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360946394136630"
+        },
+        {
+          "vouchNumber": 95,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360953465733233"
+        },
+        {
+          "vouchNumber": 96,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360959534891088"
+        },
+        {
+          "vouchNumber": 97,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360965490675773"
+        },
+        {
+          "vouchNumber": 98,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360971312500878"
+        },
+        {
+          "vouchNumber": 99,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360977544974376"
+        },
+        {
+          "vouchNumber": 100,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360984243277876"
+        },
+        {
+          "vouchNumber": 101,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360990857957407"
+        },
+        {
+          "vouchNumber": 102,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360997128437932"
+        },
+        {
+          "vouchNumber": 103,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361002446815315"
+        },
+        {
+          "vouchNumber": 104,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361008796733511"
+        },
+        {
+          "vouchNumber": 105,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361015398568056"
+        },
+        {
+          "vouchNumber": 106,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361021811916891"
+        },
+        {
+          "vouchNumber": 107,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361027902050335"
+        },
+        {
+          "vouchNumber": 108,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361033329475735"
+        },
+        {
+          "vouchNumber": 109,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361039641645178"
+        },
+        {
+          "vouchNumber": 110,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361045832695890"
+        },
+        {
+          "vouchNumber": 111,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361052736262264"
+        },
+        {
+          "vouchNumber": 112,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361058868334724"
+        },
+        {
+          "vouchNumber": 113,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361066300772433"
+        },
+        {
+          "vouchNumber": 114,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361074257498143"
+        },
+        {
+          "vouchNumber": 115,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361080582377623"
+        },
+        {
+          "vouchNumber": 116,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361086383231096"
+        },
+        {
+          "vouchNumber": 117,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361092045406228"
+        },
+        {
+          "vouchNumber": 118,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361097825030177"
+        },
+        {
+          "vouchNumber": 119,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361104330522716"
+        },
+        {
+          "vouchNumber": 120,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361110940618892"
+        },
+        {
+          "vouchNumber": 121,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361116686815253"
+        },
+        {
+          "vouchNumber": 122,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361123582251208"
+        },
+        {
+          "vouchNumber": 123,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361129085304878"
+        },
+        {
+          "vouchNumber": 124,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361135427096668"
+        },
+        {
+          "vouchNumber": 125,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361142637236356"
+        },
+        {
+          "vouchNumber": 126,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361149817618533"
+        },
+        {
+          "vouchNumber": 127,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361155828187342"
+        },
+        {
+          "vouchNumber": 128,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361162362785904"
+        },
+        {
+          "vouchNumber": 129,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361168520020092"
+        },
+        {
+          "vouchNumber": 130,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361175113732289"
+        },
+        {
+          "vouchNumber": 131,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361181203599502"
+        },
+        {
+          "vouchNumber": 132,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361187713286229"
+        },
+        {
+          "vouchNumber": 133,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361194604662796"
+        },
+        {
+          "vouchNumber": 134,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361201281859655"
+        },
+        {
+          "vouchNumber": 135,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361207237644550"
+        },
+        {
+          "vouchNumber": 136,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361213650993184"
+        },
+        {
+          "vouchNumber": 137,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361220026339512"
+        },
+        {
+          "vouchNumber": 138,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361226502209538"
+        },
+        {
+          "vouchNumber": 139,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361232873357504"
+        },
+        {
+          "vouchNumber": 140,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361238833467626"
+        },
+        {
+          "vouchNumber": 141,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361244965666957"
+        },
+        {
+          "vouchNumber": 142,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361250300694699"
+        },
+        {
+          "vouchNumber": 143,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361256424243272"
+        },
+        {
+          "vouchNumber": 144,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361262598393988"
+        },
+        {
+          "vouchNumber": 145,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361268533198850"
+        },
+        {
+          "vouchNumber": 146,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361274741031073"
+        },
+        {
+          "vouchNumber": 147,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361280218660916"
+        },
+        {
+          "vouchNumber": 148,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361286480891974"
+        },
+        {
+          "vouchNumber": 149,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361292562497637"
+        },
+        {
+          "vouchNumber": 150,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361298342379580"
+        },
+        {
+          "vouchNumber": 151,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361305229430794"
+        },
+        {
+          "vouchNumber": 152,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361311927472211"
+        },
+        {
+          "vouchNumber": 153,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361318026252409"
+        },
+        {
+          "vouchNumber": 154,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361324653121678"
+        },
+        {
+          "vouchNumber": 155,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361331041046558"
+        },
+        {
+          "vouchNumber": 156,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361338066501722"
+        },
+        {
+          "vouchNumber": 157,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361344324403340"
+        },
+        {
+          "vouchNumber": 158,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361350468927560"
+        },
+        {
+          "vouchNumber": 159,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361357230280754"
+        },
+        {
+          "vouchNumber": 160,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361363735777381"
+        },
+        {
+          "vouchNumber": 161,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361369662062663"
+        },
+        {
+          "vouchNumber": 162,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361375827824650"
+        },
+        {
+          "vouchNumber": 163,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361382249431140"
+        },
+        {
+          "vouchNumber": 164,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361389748584549"
+        },
+        {
+          "vouchNumber": 165,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361395759288442"
+        },
+        {
+          "vouchNumber": 166,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361402646204599"
+        },
+        {
+          "vouchNumber": 167,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361409541509224"
+        },
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360329696968827"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360336495939615"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360342141468739"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360348785512559"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360354938290289"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360361544454296"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360368054140991"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360374286618635"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360380766818326"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360387414917324"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360393333084240"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360399066828853"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360405316206613"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360412358574334"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360419987886211"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360426522738790"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360432742891645"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360438639956111"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360444948320347"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360451512271011"
+        },
+        {
+          "vouchNumber": 21,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360457522843770"
+        },
+        {
+          "vouchNumber": 22,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360464795762809"
+        },
+        {
+          "vouchNumber": 23,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360470843691098"
+        },
+        {
+          "vouchNumber": 24,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360476841545758"
+        },
+        {
+          "vouchNumber": 25,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360482810040370"
+        },
+        {
+          "vouchNumber": 26,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360488807895040"
+        },
+        {
+          "vouchNumber": 27,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360495493877780"
+        },
+        {
+          "vouchNumber": 28,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360502569406557"
+        },
+        {
+          "vouchNumber": 29,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360509343338600"
+        },
+        {
+          "vouchNumber": 30,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360515848831180"
+        },
+        {
+          "vouchNumber": 31,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360521846685809"
+        },
+        {
+          "vouchNumber": 32,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360528649719972"
+        },
+        {
+          "vouchNumber": 33,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360534509162540"
+        },
+        {
+          "vouchNumber": 34,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360540544761856"
+        },
+        {
+          "vouchNumber": 35,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360546236436561"
+        },
+        {
+          "vouchNumber": 36,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360553970602045"
+        },
+        {
+          "vouchNumber": 37,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360560589344812"
+        },
+        {
+          "vouchNumber": 38,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360567002435745"
+        },
+        {
+          "vouchNumber": 39,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360572807483402"
+        },
+        {
+          "vouchNumber": 40,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360578943488160"
+        },
+        {
+          "vouchNumber": 41,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360585331671081"
+        },
+        {
+          "vouchNumber": 42,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360592105214002"
+        },
+        {
+          "vouchNumber": 43,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360597838823446"
+        },
+        {
+          "vouchNumber": 44,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360604088467488"
+        },
+        {
+          "vouchNumber": 45,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360609973080155"
+        },
+        {
+          "vouchNumber": 46,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360616096895087"
+        },
+        {
+          "vouchNumber": 47,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360621796819056"
+        },
+        {
+          "vouchNumber": 48,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360627903856720"
+        },
+        {
+          "vouchNumber": 49,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360633645863102"
+        },
+        {
+          "vouchNumber": 50,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360639400448081"
+        },
+        {
+          "vouchNumber": 51,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360645783912631"
+        },
+        {
+          "vouchNumber": 52,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360652562038939"
+        },
+        {
+          "vouchNumber": 53,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360658551377961"
+        },
+        {
+          "vouchNumber": 54,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360664079728722"
+        },
+        {
+          "vouchNumber": 55,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360670098559113"
+        },
+        {
+          "vouchNumber": 56,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360675597160511"
+        },
+        {
+          "vouchNumber": 57,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360682090074122"
+        },
+        {
+          "vouchNumber": 58,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360688448634991"
+        },
+        {
+          "vouchNumber": 59,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360694341505205"
+        },
+        {
+          "vouchNumber": 60,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360700238561413"
+        },
+        {
+          "vouchNumber": 61,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360706236678165"
+        },
+        {
+          "vouchNumber": 62,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360712918073475"
+        },
+        {
+          "vouchNumber": 63,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360719029047477"
+        },
+        {
+          "vouchNumber": 64,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360727258402958"
+        },
+        {
+          "vouchNumber": 65,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360734468280350"
+        },
+        {
+          "vouchNumber": 66,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360740025733233"
+        },
+        {
+          "vouchNumber": 67,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360746279571517"
+        },
+        {
+          "vouchNumber": 68,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360752248061982"
+        },
+        {
+          "vouchNumber": 69,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360758375809107"
+        },
+        {
+          "vouchNumber": 70,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360764772253758"
+        },
+        {
+          "vouchNumber": 71,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360770589753354"
+        },
+        {
+          "vouchNumber": 72,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360776637812849"
+        },
+        {
+          "vouchNumber": 73,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360782828863558"
+        },
+        {
+          "vouchNumber": 74,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360789363589259"
+        },
+        {
+          "vouchNumber": 75,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360795986137163"
+        },
+        {
+          "vouchNumber": 76,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360802432913509"
+        },
+        {
+          "vouchNumber": 77,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360808443482292"
+        },
+        {
+          "vouchNumber": 78,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360814743195721"
+        },
+        {
+          "vouchNumber": 79,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360820979990569"
+        },
+        {
+          "vouchNumber": 80,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360826709672098"
+        },
+        {
+          "vouchNumber": 81,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360832283902024"
+        },
+        {
+          "vouchNumber": 82,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360838759649473"
+        },
+        {
+          "vouchNumber": 83,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360844854100080"
+        },
+        {
+          "vouchNumber": 84,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360851195891812"
+        },
+        {
+          "vouchNumber": 85,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360858032607317"
+        },
+        {
+          "vouchNumber": 86,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360864684769280"
+        },
+        {
+          "vouchNumber": 87,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360870430969896"
+        },
+        {
+          "vouchNumber": 88,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360877347242004"
+        },
+        {
+          "vouchNumber": 89,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360885542912020"
+        },
+        {
+          "vouchNumber": 90,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360891519799439"
+        },
+        {
+          "vouchNumber": 91,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360897802993684"
+        },
+        {
+          "vouchNumber": 92,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360903561908306"
+        },
+        {
+          "vouchNumber": 93,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360910327058519"
+        },
+        {
+          "vouchNumber": 94,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360917889384600"
+        },
+        {
+          "vouchNumber": 95,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360923786580149"
+        },
+        {
+          "vouchNumber": 96,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360929834897600"
+        },
+        {
+          "vouchNumber": 97,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360936407367814"
+        },
+        {
+          "vouchNumber": 98,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360942929379401"
+        },
+        {
+          "vouchNumber": 99,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360949321633792"
+        },
+        {
+          "vouchNumber": 100,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360955193786409"
+        },
+        {
+          "vouchNumber": 101,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360961157959902"
+        },
+        {
+          "vouchNumber": 102,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360968103854202"
+        },
+        {
+          "vouchNumber": 103,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360973723963570"
+        },
+        {
+          "vouchNumber": 104,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360980048973854"
+        },
+        {
+          "vouchNumber": 105,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360986835357910"
+        },
+        {
+          "vouchNumber": 106,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360993420415040"
+        },
+        {
+          "vouchNumber": 107,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361000194347098"
+        },
+        {
+          "vouchNumber": 108,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361005844205679"
+        },
+        {
+          "vouchNumber": 109,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361012353499226"
+        },
+        {
+          "vouchNumber": 110,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361017802035341"
+        },
+        {
+          "vouchNumber": 111,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361023938429099"
+        },
+        {
+          "vouchNumber": 112,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361029781098516"
+        },
+        {
+          "vouchNumber": 113,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361035849994342"
+        },
+        {
+          "vouchNumber": 114,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361042364010676"
+        },
+        {
+          "vouchNumber": 115,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361048625975379"
+        },
+        {
+          "vouchNumber": 116,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361054821089391"
+        },
+        {
+          "vouchNumber": 117,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361061171269763"
+        },
+        {
+          "vouchNumber": 118,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361068477612154"
+        },
+        {
+          "vouchNumber": 119,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361074261561354"
+        },
+        {
+          "vouchNumber": 120,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361080586440704"
+        },
+        {
+          "vouchNumber": 121,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361087024828567"
+        },
+        {
+          "vouchNumber": 122,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361093303832668"
+        },
+        {
+          "vouchNumber": 123,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361099733696594"
+        },
+        {
+          "vouchNumber": 124,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361106285199411"
+        },
+        {
+          "vouchNumber": 125,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361112278859827"
+        },
+        {
+          "vouchNumber": 126,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361119006392382"
+        },
+        {
+          "vouchNumber": 127,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361124727554080"
+        },
+        {
+          "vouchNumber": 128,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361133740982394"
+        },
+        {
+          "vouchNumber": 129,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361139667669154"
+        },
+        {
+          "vouchNumber": 130,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361145740755118"
+        },
+        {
+          "vouchNumber": 131,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361152069959773"
+        },
+        {
+          "vouchNumber": 132,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361158315540493"
+        },
+        {
+          "vouchNumber": 133,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361165613371412"
+        },
+        {
+          "vouchNumber": 134,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361171980451860"
+        },
+        {
+          "vouchNumber": 135,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361178833813584"
+        },
+        {
+          "vouchNumber": 136,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361184995512432"
+        },
+        {
+          "vouchNumber": 137,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361192863764511"
+        },
+        {
+          "vouchNumber": 138,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361199201484801"
+        },
+        {
+          "vouchNumber": 139,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361204842827921"
+        },
+        {
+          "vouchNumber": 140,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361211268366356"
+        },
+        {
+          "vouchNumber": 141,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361218033783016"
+        },
+        {
+          "vouchNumber": 142,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361224627490979"
+        },
+        {
+          "vouchNumber": 143,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361230511964190"
+        },
+        {
+          "vouchNumber": 144,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361236702892052"
+        },
+        {
+          "vouchNumber": 145,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361243447201944"
+        },
+        {
+          "vouchNumber": 146,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361249331941499"
+        },
+        {
+          "vouchNumber": 147,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361255896023160"
+        },
+        {
+          "vouchNumber": 148,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361261679837245"
+        },
+        {
+          "vouchNumber": 149,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361267312787506"
+        },
+        {
+          "vouchNumber": 150,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361273625219204"
+        },
+        {
+          "vouchNumber": 151,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361280348553318"
+        },
+        {
+          "vouchNumber": 152,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361285830643886"
+        },
+        {
+          "vouchNumber": 153,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361291799134268"
+        },
+        {
+          "vouchNumber": 154,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361298581328103"
+        },
+        {
+          "vouchNumber": 155,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361304948146239"
+        },
+        {
+          "vouchNumber": 156,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361310878896209"
+        },
+        {
+          "vouchNumber": 157,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361317233266801"
+        },
+        {
+          "vouchNumber": 158,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361329199611997"
+        },
+        {
+          "vouchNumber": 159,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361335457513502"
+        },
+        {
+          "vouchNumber": 160,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361342386765954"
+        },
+        {
+          "vouchNumber": 161,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361348472701149"
+        },
+        {
+          "vouchNumber": 162,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361354743058492"
+        },
+        {
+          "vouchNumber": 163,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361361176985791"
+        },
+        {
+          "vouchNumber": 164,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361367611310154"
+        },
+        {
+          "vouchNumber": 165,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361374263349490"
+        },
+        {
+          "vouchNumber": 166,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361380651274324"
+        },
+        {
+          "vouchNumber": 167,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361386632482816"
+        },
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360329579790428"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360336412311573"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360343110488189"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360349246881894"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360355189948467"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360361246523434"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360367223410729"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360373267529811"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360379504594945"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360385544257556"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360391713947739"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360398160592926"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360404120965314"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360410164822036"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360416670187592"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360423531941940"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360432868589638"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360438925168660"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360445266825336"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360451562471477"
+        },
+        {
+          "vouchNumber": 21,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360457606463500"
+        },
+        {
+          "vouchNumber": 22,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360464791437403"
+        },
+        {
+          "vouchNumber": 23,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360470885896324"
+        },
+        {
+          "vouchNumber": 24,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360477089267772"
+        },
+        {
+          "vouchNumber": 25,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360483078471730"
+        },
+        {
+          "vouchNumber": 26,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360489395097771"
+        },
+        {
+          "vouchNumber": 27,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360496043065357"
+        },
+        {
+          "vouchNumber": 28,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360502221541457"
+        },
+        {
+          "vouchNumber": 29,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360508663730226"
+        },
+        {
+          "vouchNumber": 30,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360514607190147"
+        },
+        {
+          "vouchNumber": 31,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360521406152724"
+        },
+        {
+          "vouchNumber": 32,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360527274115183"
+        },
+        {
+          "vouchNumber": 33,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360533540278403"
+        },
+        {
+          "vouchNumber": 34,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360539533934612"
+        },
+        {
+          "vouchNumber": 35,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360546681159791"
+        },
+        {
+          "vouchNumber": 36,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360552465109143"
+        },
+        {
+          "vouchNumber": 37,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360558152318996"
+        },
+        {
+          "vouchNumber": 38,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360564225806448"
+        },
+        {
+          "vouchNumber": 39,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360570966052934"
+        },
+        {
+          "vouchNumber": 40,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360576963903571"
+        },
+        {
+          "vouchNumber": 41,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360584417050654"
+        },
+        {
+          "vouchNumber": 42,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360591274872895"
+        },
+        {
+          "vouchNumber": 43,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360597218197615"
+        },
+        {
+          "vouchNumber": 44,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360602939363369"
+        },
+        {
+          "vouchNumber": 45,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360609016905880"
+        },
+        {
+          "vouchNumber": 46,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360615073349682"
+        },
+        {
+          "vouchNumber": 47,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360620752572582"
+        },
+        {
+          "vouchNumber": 48,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360627673174047"
+        },
+        {
+          "vouchNumber": 49,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360634027409560"
+        },
+        {
+          "vouchNumber": 50,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360640398692362"
+        },
+        {
+          "vouchNumber": 51,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360646115397703"
+        },
+        {
+          "vouchNumber": 52,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360651777572915"
+        },
+        {
+          "vouchNumber": 53,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360657846992946"
+        },
+        {
+          "vouchNumber": 54,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360663962292337"
+        },
+        {
+          "vouchNumber": 55,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360670853402666"
+        },
+        {
+          "vouchNumber": 56,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360678034178069"
+        },
+        {
+          "vouchNumber": 57,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360684740874281"
+        },
+        {
+          "vouchNumber": 58,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360691086725121"
+        },
+        {
+          "vouchNumber": 59,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360697122324522"
+        },
+        {
+          "vouchNumber": 60,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360703032229929"
+        },
+        {
+          "vouchNumber": 61,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360710661541979"
+        },
+        {
+          "vouchNumber": 62,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360717083148340"
+        },
+        {
+          "vouchNumber": 63,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360723143655505"
+        },
+        {
+          "vouchNumber": 64,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360729183588472"
+        },
+        {
+          "vouchNumber": 65,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360735432966195"
+        },
+        {
+          "vouchNumber": 66,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360741821022269"
+        },
+        {
+          "vouchNumber": 67,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360747852431535"
+        },
+        {
+          "vouchNumber": 68,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360754718638163"
+        },
+        {
+          "vouchNumber": 69,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360761416683651"
+        },
+        {
+          "vouchNumber": 70,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360767167205386"
+        },
+        {
+          "vouchNumber": 71,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360773274239126"
+        },
+        {
+          "vouchNumber": 72,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360780484116530"
+        },
+        {
+          "vouchNumber": 73,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360786683432981"
+        },
+        {
+          "vouchNumber": 74,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360792270241874"
+        },
+        {
+          "vouchNumber": 75,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360798326685789"
+        },
+        {
+          "vouchNumber": 76,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360803951378464"
+        },
+        {
+          "vouchNumber": 77,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360810850877592"
+        },
+        {
+          "vouchNumber": 78,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360816450404373"
+        },
+        {
+          "vouchNumber": 79,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360822649585796"
+        },
+        {
+          "vouchNumber": 80,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360828282273844"
+        },
+        {
+          "vouchNumber": 81,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360834339115050"
+        },
+        {
+          "vouchNumber": 82,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360840487829624"
+        },
+        {
+          "vouchNumber": 83,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360846099677285"
+        },
+        {
+          "vouchNumber": 84,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360855624941769"
+        },
+        {
+          "vouchNumber": 85,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360862159929394"
+        },
+        {
+          "vouchNumber": 86,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360868849713193"
+        },
+        {
+          "vouchNumber": 87,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360874725802067"
+        },
+        {
+          "vouchNumber": 88,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360881202073751"
+        },
+        {
+          "vouchNumber": 89,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360887032021002"
+        },
+        {
+          "vouchNumber": 90,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360892828422156"
+        },
+        {
+          "vouchNumber": 91,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360899271000216"
+        },
+        {
+          "vouchNumber": 92,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360905986084904"
+        },
+        {
+          "vouchNumber": 93,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360911988129972"
+        },
+        {
+          "vouchNumber": 94,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360918439104532"
+        },
+        {
+          "vouchNumber": 95,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360924067729408"
+        },
+        {
+          "vouchNumber": 96,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360929650344037"
+        },
+        {
+          "vouchNumber": 97,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360935929086053"
+        },
+        {
+          "vouchNumber": 98,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360943130841169"
+        },
+        {
+          "vouchNumber": 99,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434360949459914833"
+        },
+        {
+          "vouchNumber": 100,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360957370368071"
+        },
+        {
+          "vouchNumber": 101,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434360963842445405"
+        },
+        {
+          "vouchNumber": 102,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360970372976761"
+        },
+        {
+          "vouchNumber": 103,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360977838706791"
+        },
+        {
+          "vouchNumber": 104,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434360983874441359"
+        },
+        {
+          "vouchNumber": 105,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360991084449832"
+        },
+        {
+          "vouchNumber": 106,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434360997421908173"
+        },
+        {
+          "vouchNumber": 107,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361004720001064"
+        },
+        {
+          "vouchNumber": 108,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361011443335300"
+        },
+        {
+          "vouchNumber": 109,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361017399251057"
+        },
+        {
+          "vouchNumber": 110,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361022923145368"
+        },
+        {
+          "vouchNumber": 111,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361029319462952"
+        },
+        {
+          "vouchNumber": 112,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361035313254443"
+        },
+        {
+          "vouchNumber": 113,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361041780998175"
+        },
+        {
+          "vouchNumber": 114,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361048575639613"
+        },
+        {
+          "vouchNumber": 115,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361055328600076"
+        },
+        {
+          "vouchNumber": 116,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361061980635298"
+        },
+        {
+          "vouchNumber": 117,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361068943183905"
+        },
+        {
+          "vouchNumber": 118,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361076337868810"
+        },
+        {
+          "vouchNumber": 119,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361082960674949"
+        },
+        {
+          "vouchNumber": 120,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361089012797540"
+        },
+        {
+          "vouchNumber": 121,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361095711096922"
+        },
+        {
+          "vouchNumber": 122,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361101813944321"
+        },
+        {
+          "vouchNumber": 123,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361107732103238"
+        },
+        {
+          "vouchNumber": 124,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361113176444991"
+        },
+        {
+          "vouchNumber": 125,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361119157256225"
+        },
+        {
+          "vouchNumber": 126,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361126388498432"
+        },
+        {
+          "vouchNumber": 127,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361132331565127"
+        },
+        {
+          "vouchNumber": 128,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361138858033376"
+        },
+        {
+          "vouchNumber": 129,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361144977653893"
+        },
+        {
+          "vouchNumber": 130,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361152267223200"
+        },
+        {
+          "vouchNumber": 131,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361159628099614"
+        },
+        {
+          "vouchNumber": 132,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361165701709944"
+        },
+        {
+          "vouchNumber": 133,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361171959615488"
+        },
+        {
+          "vouchNumber": 134,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361180175990824"
+        },
+        {
+          "vouchNumber": 135,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361185880244416"
+        },
+        {
+          "vouchNumber": 136,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361191513460758"
+        },
+        {
+          "vouchNumber": 137,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361197288882188"
+        },
+        {
+          "vouchNumber": 138,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361203223691426"
+        },
+        {
+          "vouchNumber": 139,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361209083133952"
+        },
+        {
+          "vouchNumber": 140,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361215387435020"
+        },
+        {
+          "vouchNumber": 141,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361221485826080"
+        },
+        {
+          "vouchNumber": 142,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361227353657574"
+        },
+        {
+          "vouchNumber": 143,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361233381003394"
+        },
+        {
+          "vouchNumber": 144,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361239567466627"
+        },
+        {
+          "vouchNumber": 145,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361245854728352"
+        },
+        {
+          "vouchNumber": 146,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361254343872693"
+        },
+        {
+          "vouchNumber": 147,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361260815945768"
+        },
+        {
+          "vouchNumber": 148,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361266410881230"
+        },
+        {
+          "vouchNumber": 149,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361274686246993"
+        },
+        {
+          "vouchNumber": 150,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361281669894144"
+        },
+        {
+          "vouchNumber": 151,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361288955527369"
+        },
+        {
+          "vouchNumber": 152,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361295875870760"
+        },
+        {
+          "vouchNumber": 153,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361303140405299"
+        },
+        {
+          "vouchNumber": 154,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361310409265264"
+        },
+        {
+          "vouchNumber": 155,
+          "success": true,
+          "product": "fake vouch",
+          "price": "$1000",
+          "messageId": "1434361316130291733"
+        },
+        {
+          "vouchNumber": 156,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361321876619337"
+        },
+        {
+          "vouchNumber": 157,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361328436379779"
+        },
+        {
+          "vouchNumber": 158,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361334103015537"
+        },
+        {
+          "vouchNumber": 159,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361339744096339"
+        },
+        {
+          "vouchNumber": 160,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361346333347850"
+        },
+        {
+          "vouchNumber": 161,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361352985776158"
+        },
+        {
+          "vouchNumber": 162,
+          "success": true,
+          "product": "test",
+          "price": "$1",
+          "messageId": "1434361358471659674"
+        },
+        {
+          "vouchNumber": 163,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361365060915363"
+        },
+        {
+          "vouchNumber": 164,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361371398504670"
+        },
+        {
+          "vouchNumber": 165,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361377727709400"
+        },
+        {
+          "vouchNumber": 166,
+          "success": true,
+          "product": "real vouch",
+          "price": "$52",
+          "messageId": "1434361385315467409"
+        },
+        {
+          "vouchNumber": 167,
+          "success": true,
+          "product": "update",
+          "price": "$632",
+          "messageId": "1434361391501803590"
+        }
+      ],
+      "timestamp": "2025-11-02T02:00:08.694Z",
+      "channels": [
+        "1434359826837798943",
+        "1434359832571412661",
+        "1434359837688463531"
+      ],
+      "successRate": 100.2
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434358253411762296"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358259627725001"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434358265256345795"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358271908511786"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358278464344196"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434358284466393193"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434358290472632433"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358296390668330"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434358302615015455"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358309053530133"
+        },
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434358253260767265"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358260328304822"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358266527354891"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434358273309409384"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358279357730909"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358286743896195"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434358293123432620"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358299419213844"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434358305324797962"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434358311318196234"
+        }
+      ],
+      "timestamp": "2025-11-02T01:47:50.495Z",
+      "channels": [
+        "1434357188763058226",
+        "1434357197114052738"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342668137271426"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342669752209616"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342672340095119"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342674726523021"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342677666726020"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342680460263556"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342682779713719"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342686181163038"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342688198496316"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342690157367416"
+        },
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342668212899922"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342671089926237"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342673052991528"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342675552665731"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342678585278567"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342680900534363"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342682855084164"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342685161820252"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342687397642240"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342689603584101"
+        }
+      ],
+      "timestamp": "2025-11-02T00:45:45.510Z",
+      "channels": [
+        "1434342282953494720",
+        "1434342292277301279"
+      ],
+      "successRate": 100
+    },
+    {
+      "total": 20,
+      "sent": 20,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342385097248948"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342391417929728"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342396715466948"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342403254259742"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342409151582238"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342414855831682"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342420828651581"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342427556188231"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342433302380564"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342438880935948"
+        },
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342384694460537"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342390541451325"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342396094840933"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342402272788491"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342407994085512"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342414541394061"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342421038104577"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "14x 1m Boosts",
+          "price": "$1.50",
+          "messageId": "1434342427828945057"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "1x Nitro",
+          "price": "$2.50",
+          "messageId": "1434342433340002304"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "1x Token",
+          "price": "$0.10",
+          "messageId": "1434342438885003304"
+        }
+      ],
+      "timestamp": "2025-11-02T00:44:45.756Z",
+      "channels": [
+        "1434342282953494720",
+        "1434342292277301279"
+      ],
+      "successRate": 100
+    }
+  ],
+  "templates": [
+    {
+      "name": "e",
+      "products": [
+        {
+          "purchase": "1x Nitro",
+          "price": "$2.50"
+        },
+        {
+          "purchase": "14x 1m Boosts",
+          "price": "$1.50"
+        },
+        {
+          "purchase": "1x Token",
+          "price": "$0.10"
+        }
+      ],
+      "id": "1762047242009",
+      "createdAt": "2025-11-02T01:34:02.009Z"
+    }
+  ]
+}

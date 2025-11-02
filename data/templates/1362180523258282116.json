@@ -1,0 +1,24 @@
+{
+  "history": [],
+  "templates": [
+    {
+      "name": "NITRO",
+      "products": [
+        {
+          "purchase": "Test",
+          "price": "$1000"
+        },
+        {
+          "purchase": "ENDER",
+          "price": "$262"
+        },
+        {
+          "purchase": "OPIUM",
+          "price": "$626"
+        }
+      ],
+      "id": "1762043958695",
+      "createdAt": "2025-11-02T00:39:18.695Z"
+    }
+  ]
+}

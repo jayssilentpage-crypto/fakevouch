@@ -1,0 +1,368 @@
+{
+  "history": [
+    {
+      "total": 50,
+      "sent": 50,
+      "failed": 0,
+      "results": [
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340679198310432"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340685749682186"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340692519420130"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340698630652036"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340708969615391"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340714300444776"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340720260550708"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340726161801266"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340731828437214"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340737633489011"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340744063094914"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340750761529345"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340757518684160"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340763751157892"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340769728299078"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340775658918059"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340780876628019"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340786715099218"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340792310173778"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340798433988609"
+        },
+        {
+          "vouchNumber": 21,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340804998205543"
+        },
+        {
+          "vouchNumber": 22,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340810870095994"
+        },
+        {
+          "vouchNumber": 23,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340817073602752"
+        },
+        {
+          "vouchNumber": 24,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340823151022162"
+        },
+        {
+          "vouchNumber": 25,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340829152935936"
+        },
+        {
+          "vouchNumber": 1,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340830860017716"
+        },
+        {
+          "vouchNumber": 2,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340837067849801"
+        },
+        {
+          "vouchNumber": 3,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340843078287571"
+        },
+        {
+          "vouchNumber": 4,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340849881317508"
+        },
+        {
+          "vouchNumber": 5,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340855598288946"
+        },
+        {
+          "vouchNumber": 6,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340861415526582"
+        },
+        {
+          "vouchNumber": 7,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340867476557998"
+        },
+        {
+          "vouchNumber": 8,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340874359144558"
+        },
+        {
+          "vouchNumber": 9,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340880277307432"
+        },
+        {
+          "vouchNumber": 10,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340886417768549"
+        },
+        {
+          "vouchNumber": 11,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340897058721893"
+        },
+        {
+          "vouchNumber": 12,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340902637273188"
+        },
+        {
+          "vouchNumber": 13,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340908232347710"
+        },
+        {
+          "vouchNumber": 14,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340913815097435"
+        },
+        {
+          "vouchNumber": 15,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340919200710748"
+        },
+        {
+          "vouchNumber": 16,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340925869527100"
+        },
+        {
+          "vouchNumber": 17,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340931338895410"
+        },
+        {
+          "vouchNumber": 18,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340936879706242"
+        },
+        {
+          "vouchNumber": 19,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340942428639312"
+        },
+        {
+          "vouchNumber": 20,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340948619296839"
+        },
+        {
+          "vouchNumber": 21,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340956320170085"
+        },
+        {
+          "vouchNumber": 22,
+          "success": true,
+          "product": "Test",
+          "price": "$1000",
+          "messageId": "1434340964062724217"
+        },
+        {
+          "vouchNumber": 23,
+          "success": true,
+          "product": "OPIUM",
+          "price": "$626",
+          "messageId": "1434340969943138315"
+        },
+        {
+          "vouchNumber": 24,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340976989831218"
+        },
+        {
+          "vouchNumber": 25,
+          "success": true,
+          "product": "ENDER",
+          "price": "$262",
+          "messageId": "1434340983117578434"
+        }
+      ],
+      "timestamp": "2025-11-02T00:38:58.653Z",
+      "channels": [
+        "1434340425917005874",
+        "1434340494833356941"
+      ],
+      "successRate": 100
+    }
+  ],
+  "templates": []
+}
