@@ -266,9 +266,72 @@ export async function POST(request: NextRequest) {
         { status: 400 }
       )
     }
-    
+
     // Ensure channelId is a string
     const channelIdStr = String(channelId).trim()
+
+    // PRE-VALIDATE: Check if bot can access the channel BEFORE trying to send messages
+    try {
+      const validationResponse = await fetch(`https://discord.com/api/v10/channels/${channelIdStr}`, {
+        headers: {
+          'Authorization': `Bot ${cleanToken}`,
+          'User-Agent': 'DiscordBot (https://fakevouch.xyz, 1.0)',
+        },
+      })
+
+      if (!validationResponse.ok) {
+        const validationError = await validationResponse.text()
+        let validationErrorJson = null
+        try {
+          validationErrorJson = JSON.parse(validationError)
+        } catch {}
+
+        if (validationResponse.status === 403) {
+          return NextResponse.json(
+            { 
+              error: 'Bot cannot access channel',
+              details: `Channel ID: ${channelIdStr}. The bot is either: 1) Not in the server, 2) Missing permissions, 3) Channel is in a private category, or 4) Wrong bot token. Error: ${validationErrorJson?.message || validationError}. Fix: Invite bot to server with Administrator permissions.`,
+              errorCode: validationErrorJson?.code || 'unknown',
+              channelId: channelIdStr,
+            },
+            { status: 403 }
+          )
+        } else if (validationResponse.status === 404) {
+          return NextResponse.json(
+            { 
+              error: 'Channel not found',
+              details: `Channel ID ${channelIdStr} is invalid or bot is not in the server. Verify: 1) Channel ID is correct (enable Developer Mode and right-click channel → Copy ID), 2) Bot is invited to the server.`,
+              channelId: channelIdStr,
+            },
+            { status: 404 }
+          )
+        } else if (validationResponse.status === 401) {
+          return NextResponse.json(
+            { 
+              error: 'Invalid bot token',
+              details: `The bot token in Netlify environment variables is incorrect or expired. Get a new token from Discord Developer Portal → Your App → Bot → Reset Token, then update DISCORD_BOT_TOKEN in Netlify.`,
+            },
+            { status: 401 }
+          )
+        }
+
+        return NextResponse.json(
+          { 
+            error: 'Cannot validate channel access',
+            details: `HTTP ${validationResponse.status}: ${validationError.substring(0, 200)}`,
+            channelId: channelIdStr,
+          },
+          { status: validationResponse.status }
+        )
+      }
+
+      // If we get here, bot CAN access the channel - proceed with sending messages
+      const channelData = await validationResponse.json()
+      console.log(`✅ Bot can access channel: ${channelData.name || channelIdStr}`)
+    } catch (validationError: any) {
+      // If validation fails due to network error, still try to send (might be a transient issue)
+      console.warn('⚠️ Could not validate channel access, proceeding anyway:', validationError.message)
+    }
 
     const results = []
     
@@ -318,8 +381,8 @@ export async function POST(request: NextRequest) {
               errorMessage = 'Missing Permissions'
               errorDetails = `Channel ID: ${channelIdStr}. Even with Admin, check: 1) Channel permission overwrites, 2) Bot role position, 3) Channel/category visibility. Full error: ${JSON.stringify(discordError)}`
             } else if (discordError?.code === 50001) {
-              errorMessage = 'Missing Access'
-              errorDetails = `Bot cannot access channel ${channelIdStr}. Solutions: 1) Ensure bot is in the server, 2) Check channel/category permissions, 3) Verify bot token is correct in Netlify environment variables, 4) Make sure bot role can view the channel. Error: ${JSON.stringify(discordError)}`
+              errorMessage = 'Missing Access - Bot Not in Server or No Permissions'
+              errorDetails = `CRITICAL: Bot cannot access channel ${channelIdStr}. IMMEDIATE FIX: 1) Go to https://discord.com/developers/applications → Your App → OAuth2 → URL Generator → Select 'bot' scope + Administrator permissions → Copy URL → Open in browser → Select your server → Authorize. 2) Verify bot appears in server member list. 3) Ensure bot token in Netlify matches the bot that's in the server. Error details: ${JSON.stringify(discordError)}`
             } else {
               errorMessage = 'Forbidden - Bot lacks permissions'
               errorDetails = `Discord error code: ${discordError?.code || 'unknown'}. Channel: ${channelIdStr}. Check: 1) Bot is in server, 2) Channel permissions allow bot, 3) Bot token is correct. Full error: ${responseData.substring(0, 300)}`
