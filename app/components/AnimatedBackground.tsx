@@ -39,7 +39,7 @@ export default function AnimatedBackground() {
     }
 
     function animate() {
-      if (!ctx) return
+      if (!canvas || !ctx) return
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
       particles.forEach((particle, i) => {
@@ -77,6 +77,7 @@ export default function AnimatedBackground() {
     animate()
 
     const handleResize = () => {
+      if (!canvas) return
       canvas.width = window.innerWidth
       canvas.height = window.innerHeight
     }
