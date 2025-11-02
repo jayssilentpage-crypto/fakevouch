@@ -1,8 +1,22 @@
 import { NextAuthOptions } from 'next-auth'
 import DiscordProvider from 'next-auth/providers/discord'
 
+// Validate required environment variables
+if (!process.env.DISCORD_CLIENT_ID) {
+  console.error('⚠️ DISCORD_CLIENT_ID is missing')
+}
+if (!process.env.DISCORD_CLIENT_SECRET) {
+  console.error('⚠️ DISCORD_CLIENT_SECRET is missing')
+}
+if (!process.env.NEXTAUTH_SECRET) {
+  console.error('⚠️ NEXTAUTH_SECRET is missing - this will cause authentication to fail')
+}
+
 export const authOptions: NextAuthOptions = {
   secret: process.env.NEXTAUTH_SECRET,
+  // Ensure we have a base URL for callbacks
+  trustHost: true, // Required for NextAuth on serverless platforms like Netlify
+  debug: process.env.NODE_ENV === 'development', // Enable debug in development
   providers: [
     DiscordProvider({
       clientId: process.env.DISCORD_CLIENT_ID || '',
